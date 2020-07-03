@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(name: "S3Kit", targets: ["S3Kit"]),
         .library(name: "S3Signer", targets: ["S3Signer"]),
-        //        .library(name: "S3TestTools", targets: ["S3TestTools"])
+        .library(name: "S3", targets: ["S3"])
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
